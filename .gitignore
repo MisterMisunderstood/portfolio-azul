@@ -1,3 +1,11 @@
 style.css
 projetos.css
 response.css
+
+#ignorados 
+/assets/css/style.css
+assets/css/projetos.css
+assets/css/response.css
+
+# Ignore todos os arquivos de texto
+*.txt
