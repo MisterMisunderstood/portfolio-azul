@@ -1,0 +1,17 @@
+* A cada novo projeto, basta copiar o index.html do projeto anterior e colocá-lo num diretório nomeado numericamente, começando por 0x (como 01, 02, 03...). O mesmo número deverá ser usado para criar um diretório na galeria.
+
+* Edite o que precise no index do projeto.
+
+* Na galeria, coloque imagens numeradas -sem o zero-, em ordem crescente.
+
+* No index.html pai, ou seja, a página principal, será preciso adicionar o box com as demais propriedades do card para acessar o projeto.
+Basta copiar a box, que inicia em <div class="box"> até a div de fechamento correspondente e alterar a numeração de acordo com a ordem numérica seguinte.
+
+* Não requer muito esforço para adicionar novos projetos na galeria.
+
+
+
+
+
+
+Ricardo Couto / Rick | Dev

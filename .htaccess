@@ -1,0 +1,14 @@
+ErrorDocument 204 ./portfolio/error.html
+ErrorDocument 301 ./portfolio/error.html
+ErrorDocument 400 ./portfolio/error.html
+ErrorDocument 403 ./portfolio/error.html
+ErrorDocument 404 ./404.html
+ErrorDocument 408 ./portfolio/error.html
+ErrorDocument 412 ./portfolio/error.html
+ErrorDocument 444 ./portfolio/error.html
+ErrorDocument 500 ./portfolio/error.html
+ErrorDocument 501 ./portfolio/error.html
+ErrorDocument 502 ./portfolio/error.html
+ErrorDocument 503 ./portfolio/error.html
+ErrorDocument 504 ./portfolio/error.html
+ErrorDocument 599 ./portfolio/error.html

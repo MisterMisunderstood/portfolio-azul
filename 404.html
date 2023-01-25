@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Ricardo Couto, desenvolvedor fullstack">
+    <link rel="stylesheet" href="./assets/css/style-min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="shortcut icon" href="./assets/img/favicon-error.png" type="image/x-icon" />
+
+    <title>Rick | 404</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <p class="logo-menu">Rick | Dev</p>
+        </div>
+        <nav class="menu-ops">
+            <a href="./index.html" class="menu-ops-item">voltar</a>
+        </nav>
+    </header>
+    <section class="error-page-404">
+        <div class="msg-text text-404">
+            <h1>Ops!</h1>
+            <p>Parece que o recurso que você quer não existe! :(<br>Só volte :/</p>
+        </div>
+        <div class="q-tistreza-img">
+            <img src="./assets/img/pepe404.png" alt="Pepe triste e desapontado, com crise existencial">
+
+        </div>
+    </section>
+    
+    <script>
+        var audio = document.createElement("AUDIO")
+        document.body.appendChild(audio);
+        audio.src = "./assets/ressources/404.mp3"
+        document.body.addEventListener("mousemove", function () {
+            audio.play()
+        })
+    </script>
+</body>

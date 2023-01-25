@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Ricardo Couto, desenvolvedor fullstack">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/response.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon" />
+    <title>Rick | Dev</title>
+</head>
+
+
+<body>
+    <div class="preloader">
+        <div class="preloader-logo"></div>
+        <h1 class="pre-logo">Rick | Dev</h1>
+        <p>Carregando....</p>
+    </div>
+
+    
+    <div id="overlay-g" class="overlay-galery toggle-overlay"></div>
+    <div class="box-frame-galery toggle-overlay">
+        <iframe id="frame-principal" src="./portfolio/error.html" frameborder="0" scrolling="no"
+            loading="lazy" sandbox="allow-same-origin allow-scripts allow-top-navigation" onerror="errorEventFrame()"></iframe>
+    </div> 
+
+
+
+    <header>
+        <div>
+            <p href="#home" class="logo-menu">Rick | Dev</p>
+        </div>
+        <div>
+            <a class="icon-menu toggle-menu-mob"></a>            
+        </div>
+        <nav class="menu-ops">
+            <a href="#home" class="menu-ops-item">home</a>
+            <a href="#projetos" class="menu-ops-item">Meus projetos</a>
+            <a href="#contato" class="menu-ops-item">Me encontre!</a>
+        </nav>
+        <div class="acabamento-mob toggle-menu-mob">
+            <div class="tooltip-seta"></div>
+            <div class="tooltip-seta"></div>
+            <div class="tooltip-seta"></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="div-area div-area-mob" id="home">
+            <!-- <a name="home"></a> -->
+        </div>
+        <div class="menu-mob">
+            <a href="#home" class="icon-home"></a>
+            <a href="#projetos" class="icon-chemistry"></a>
+            <a href="#contato" class="icon-directions"></a>
+        </div>
+        <section class="container-box-inicial">
+            <div class="container-principal">
+                <div class="apresentacao">
+                    <h1>Olá!</h1>
+                    <p>Esse é o meu portfólio. Me chamo <big>Ricardo</big>, sou um desenvolvedor <big>júnior</big> e
+                        busco me
+                        desenvolver em <big>full-stack.</big><br>
+                        Abaixo estão algumas linguagens e ferramentas das quais já fiz uso.<br>
+                    </p>
+
+                    <hr size="1" width="30%" color="#fff" noshade>
+                    <div>
+                        <i class="devicon-html5-plain-wordmark colored"></i>
+                        <i class="devicon-css3-plain-wordmark colored"></i>
+                        <i class="devicon-javascript-plain colored"></i>
+                        <i class="devicon-jquery-plain-wordmark colored"></i>
+                        <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                        <i class="devicon-sass-original colored"></i>
+                        <i class="devicon-nodejs-plain-wordmark colored"></i>
+                        <i class="devicon-react-original-wordmark colored"></i>
+                        <i class="devicon-nextjs-plain-wordmark"></i>
+                        <i class="devicon-csharp-plain-wordmark colored"></i>
+                        <i class="devicon-microsoftsqlserver-plain-wordmark colored"></i>
+                        <i class="devicon-dot-net-plain-wordmark colored"></i>
+                        <i class="devicon-dotnetcore-plain colored"></i>
+                        <i class="devicon-figma-plain colored"></i>
+                        <i class="devicon-vscode-plain-wordmark colored"></i>
+                    </div>
+                </div>                
+                <div class="box-img-principal">
+                    <img src="./assets/img/avatar.jpg" alt="Avatar lindaum!">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <div id="projetos" class="projetos">
+        <div class="div-area">
+            <!-- <a name="projetos"></a> -->
+        </div>
+        <a class="titulo-proj">Projetos</a>
+
+
+        <div class="container">
+            <div class="box">
+                <div class="content">
+                    <h2>01</h2>
+                    <h3>Projeto Collect</h3>
+                    <p>App para Microsoft Windows, em WinFormse C# (C-Sharp). 
+                        Pensado para ser simples porém com alguns recursos além do
+                        "plan-text" e design flat, com temas claro e escuro.</p>
+                    <a onclick="btnProj('01')" class="toggle-overlay">mais informações</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <h2>02</h2>
+                    <h3>João Lemon</h3>
+                    <p>Um site completo criado usando as tecnologias atuais, bibliotecas e
+                        JS, com design responsivo entre outras coisas.
+                        Você pode <strong>conferir o site em funcionamento</strong>.</p>
+                    <a onclick="btnProj('02')" class="toggle-overlay">mais informações</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <h2>03</h2>
+                    <h3>LancheMac</h3>
+                    <p>LanchesMac é um projeto focado em Back-End e Microsoft MVC, bastante 
+                        complexo, além de demonstrar várias ferramentas do padrão MVC.</p>
+                    <a onclick="btnProj('03')" class="toggle-overlay">mais informações</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <h2>04</h2>
+                    <h3>Web API Filmes</h3>
+                    <p>Com foco no Back-End, essa Web API é feita em .Net6 (dotNet) e C# (C-Sharp), permitindo
+                        requisitar ou enviar informações para o server via DTO's.
+                    </p>
+                    <a onclick="btnProj('04')" class="toggle-overlay">mais informações</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <h2>05</h2>
+                    <h3>AluraTube</h3>
+                    <p>Imersão da Alura, com duração de 5 dias. Uma interface muito bem 
+                        acabada e um outro nível de playlist.
+                        Você pode <strong>conferir o projeto em funcionamento</strong>! 
+                    </p>
+                    <a onclick="btnProj('05')" class="toggle-overlay">mais informações</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <h2>06</h2>
+                    <h3>Esse Portfólio</h3>
+                    <p>Aqui não poderia faltar o próprio portfólio como um projeto pessoal.
+                        A inspiração veio de um modelo de "card" visto na internet e a 
+                    partir daí fiz todo o resto.  </p>
+                    <a onclick="btnProj('06')" class="toggle-overlay">mais informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="contato" class="contato-footer">
+        <!-- <div id="contato"></div> -->
+        <div>
+            <h1>Me encontre no Linkedin! :)</h1>
+            <div class="redes-icons">
+                <a href="https://www.linkedin.com/in/ricardo-couto-ferreira-perfil/" target="_blank" id="redes"><i
+                        class="devicon-linkedin-plain"></i></a>
+                <a href="https://github.com/MisterMisunderstood" target="_blank" id="redes"><i
+                        class="devicon-github-original"></i></a>
+            </div>
+            <p id="tip" class="tooltip">Outras redes sociais?<span>
+                Bom, basicamente não possuo outras redes sociais 
+                porque pra mim distraem muito e acrescentam pouco. =] 
+            </span></p>
+        </div>
+        
+        <div>
+            <hr size="1" width="60%" color="#696969" noshade>
+            <p>Developed by Ricardo Couto &lt;Rick | Dev&gt; - &copy; 2023</p>
+            <p></p>
+        </div>
+
+    </footer>
+    <script type="text/javascript" src="./assets/js/jquery-3.6.3.min.js"></script>
+    <script type="text/javascript" src="./assets/js/scroll.js"></script>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+
+    <script>
+        tippy('#tip', {
+            content: 'Bom, basicamente não possuo outras redes sociais porque pra mim distraem muito e acrescentam pouco. =]',
+            
+            theme: 'navy',
+
+        });
+      </script>
+</body>
+
+</html>
