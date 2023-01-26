@@ -1,3 +1,13 @@
+// $('.carrossel')[0].slick.refresh()
+
+// $('.carrossel').slick('refresh');
+
+$(window).on('orientationchange', function() {
+  $('.carrossel').slick('resize');
+});
+
+$('.carrossel').not('.slick-initialized').slick();
+
 $(".carrossel").slick({
   dots: false,
   infinite: true,
@@ -7,9 +17,10 @@ $(".carrossel").slick({
   autoplay: true,
   autoplaySpeed: 4000,
   centerPadding: '4px',
-  mobileFirst: false,
+  mobileFirst: true,
   pauseOnHover: true,
   touchMove: true,
+  lazyLoad: 'progressive',
 });
 
 // lazyLoad: 'ondemand',

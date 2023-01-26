@@ -10,7 +10,7 @@ $('nav a').click(function(e){
 	}, 500);
 });
 
-$('.logo-menu p').click(function(e){
+$('.logo-menu').click(function(e){
 	e.preventDefault();
 	var id = $(this).attr('href'),
 			menuHeight = $('.logo-menu').innerHeight(),
@@ -20,10 +20,10 @@ $('.logo-menu p').click(function(e){
 	}, 500);
 });
 
-$('p').click(function(e){
+$('.menu-mob a').click(function(e){
 	e.preventDefault();
 	var id = $(this).attr('href'),
-			menuHeight = $('p').innerHeight(),
+			menuHeight = $('.menu-mob').innerHeight(),
 			targetOffset = $(id).offset().top;
 	$('html, body').animate({
 		scrollTop: targetOffset - menuHeight
