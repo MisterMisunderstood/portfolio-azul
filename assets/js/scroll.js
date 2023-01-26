@@ -10,20 +10,20 @@ $('nav a').click(function(e){
 	}, 500);
 });
 
-$('p').click(function(e){
+$('.logo-menu p').click(function(e){
 	e.preventDefault();
 	var id = $(this).attr('href'),
-			menuHeight = $('p').innerHeight(),
+			menuHeight = $('.logo-menu').innerHeight(),
 			targetOffset = $(id).offset().top;
 	$('html, body').animate({
 		scrollTop: targetOffset - menuHeight
 	}, 500);
 });
 
-$('a').click(function(e){
+$('p').click(function(e){
 	e.preventDefault();
 	var id = $(this).attr('href'),
-			menuHeight = $('a').innerHeight(),
+			menuHeight = $('p').innerHeight(),
 			targetOffset = $(id).offset().top;
 	$('html, body').animate({
 		scrollTop: targetOffset - menuHeight
