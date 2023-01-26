@@ -3,8 +3,7 @@ $(".carrossel").slick({
   infinite: true,
   speed: 300,
   slidesToShow: 1,
-  adaptiveHeight: true,  
-  lazyLoad: 'ondemand',
+  adaptiveHeight: true,    
   autoplay: true,
   autoplaySpeed: 4000,
   centerPadding: '4px',
@@ -12,3 +11,5 @@ $(".carrossel").slick({
   pauseOnHover: true,
   touchMove: true,
 });
+
+// lazyLoad: 'ondemand',
